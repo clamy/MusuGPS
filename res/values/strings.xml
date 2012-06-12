@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MusuGPSActivity!</string>
+    <string name="app_name">MusuGPS</string>
+	<string name="edit_prompt">Choose map edit mode</string>
+    <string-array name="edit_array">
+        <item>Browse Map</item>
+        <item>Change my location</item>
+        <item>Change message location</item>        
+    </string-array>
+    
+</resources>
