@@ -200,7 +200,7 @@ public class MapTouchListener {
 				(int) (loc.getLongitude() * 1E6));
 		return point;
 	}
-	public void redraw(){
+	public void redraw(){		
 		List<Overlay> listOfOverlays = mapView.getOverlays();
 		listOfOverlays.clear();
 		listOfOverlays.add(overlay);

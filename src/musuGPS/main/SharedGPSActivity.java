@@ -263,6 +263,7 @@ public class SharedGPSActivity extends MapActivity {
 		getMemberStatus(status_id);
 		getMemberLocation(location_id);
 		getMessages(message_id);
+		mtl.updateGPS();
         mtl.redraw();
 	}
 	protected void finalize(){

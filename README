@@ -1,0 +1,11 @@
+README for MusuGPS:
+
+This is a debug version : the map API needs an API key, and the one used here was set for debug.
+Some improvement is needed when it comes to data structures. Right now, I guess too much messages will severely impact
+performance, and might even break the application.
+
+Two activities are defined, though the only one actually used is SharedGPSActivity, which you can access from Musubi.
+The plan was originally to send messages from Musubi, but to visualize data in a separate activity. However, it was
+simpler to do both in the same activity accessed from Musubi.
+
+There are many points of improvement, please read the associated final report to see some leads on how to do so.
